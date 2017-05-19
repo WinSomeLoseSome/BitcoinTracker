@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <!-- angular lib -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!--plotly lib -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="MainController">
+
+        <h1 class="title">Bitcoin Price Tracker</h1>
+
+        <div class="container">
+            <div class="sub-title">
+                <h1>{{ time.updated | date }}</h1>
+
+                <p>Current Price:</p>
+                <p>{{USrate}}</p>
+            </div>
+
+            <div class = 'graph'>
+                <div id="myDiv" style="width: 480px; height: 400px;"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+
+    <!-- Functions -->
+    <script src="js/functions/graph.js"></script>
+
+    <!-- Directives -->
+    <script src="js/directives/coin.js"></script>
+
+    <!-- Services -->
+    <script src="js/services/currentPrice.js"></script>
+    <script src="js/services/priceHistory.js"></script>
+
+
+
+</body>
+</html>
