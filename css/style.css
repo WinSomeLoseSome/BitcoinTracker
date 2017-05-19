@@ -1,0 +1,21 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.graph {
+    margin: auto;
+    width: 75%;
+}
