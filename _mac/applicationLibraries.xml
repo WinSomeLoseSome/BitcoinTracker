@@ -14,10 +14,12 @@
     <library name="angular-ui-router" type="javaScript">
       <properties>
         <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__unpkg.com_angular-ui-router_release_angular-ui-router.js" />
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-ui-router_0.3.2_angular-ui-router.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__unpkg.com_angular-ui-router_release_angular-ui-router.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-ui-router_0.3.2_angular-ui-router.js" />
       </CLASSES>
       <SOURCES />
